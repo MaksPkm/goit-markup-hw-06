@@ -576,7 +576,6 @@ p {
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 16px;
         cursor: pointer;
         border: none;
         border-radius: 4px;
@@ -687,10 +686,6 @@ p {
 
 
 
-.mod-form {
-        margin-left: 24px;
-        margin-right: 24px;
-}
 
 .mod-form-wrap-lab {
         display: block;
