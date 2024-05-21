@@ -50,9 +50,7 @@ img {
 }
 
 
-.color-text {
-    color: #4d5ae5;
-} 
+
 
 
 
@@ -729,12 +727,14 @@ Footer
 
 .footer-sect {
     background-color: #2e2f42;
-    padding: 96px 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
  
 @media screen and (min-width: 1158px) {
     .footer-sect {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -946,7 +946,7 @@ Backdrop
 
 }
 
-.is-open {
+{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -1190,8 +1190,12 @@ Backdrop
 Mobile menu
 ======================================================================================================================================================== */
 
-
-
+.color-text {
+    color: #4d5ae5;
+}
+.color-mob-text {
+    color: #4d5ae5;
+}
 
 .mobile-menu {
     position: fixed;
@@ -1210,14 +1214,15 @@ Mobile menu
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu.is-open {
+ {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
 
 .mobile-menu-container {
-
+    display: flex;
+    flex-direction: column;
     height: 100%;
     position: relative;
     padding-top: 72px;
@@ -1263,6 +1268,12 @@ Mobile menu
     margin-bottom: auto;
 }
  
+.mob-navig-menu {
+    display: flex;
+        flex-direction: column;
+        gap: 40px;
+}
+
 .mob-navig-menu-item {
     font-weight: 700;
     font-size: 36px;
