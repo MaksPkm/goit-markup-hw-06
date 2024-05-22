@@ -729,6 +729,7 @@ Footer
     background-color: #2e2f42;
     padding-top: 96px;
     padding-bottom: 96px;
+    height: 664px;
 }
  
 @media screen and (min-width: 1158px) {
@@ -739,10 +740,11 @@ Footer
 }
 
 .footer-conteiner {
+    
     display: flex;
     flex-direction: column;
-    gap: 72px;
     align-items: center;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -762,18 +764,18 @@ Footer
     }
 }
 
-.footer-text-box {
+.foot-soc-text {
     text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-    .footer-text-box {
+    .foot-soc-text {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .footer-text-box {
+    .foot-soc-text {
         margin-right: 120px;
     }
 }
